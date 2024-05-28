@@ -4,3 +4,7 @@ url =  "https://randomword.com/"
 
 response = requests.get(url)
 print(response.text)
+
+def get_english_words():
+    url = "https://randomword.com/"
+    
